@@ -3,17 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <title>Lab 1</title>
-  <!-- TODO: Add a meta tag to properly set the viewport and initial scale -->
-
+  <!-- DONE: Add a meta tag to properly set the viewport and initial scale -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- DONE: Add a link to a normalize.css file, which should be in your vendor/styles/ directory -->
   <link rel="stylesheet" type="text/css" href="vendor/styles/normalize.css">
-  <!-- TODO: Link in the provided styles/icons.css file so that you can use icon fonts -->
+  <!-- DONE: Link in the provided styles/icons.css file so that you can use icon fonts -->
+  <link rel="stylesheet" type="text/css" href="will-phelan/styles/icons.css">
 
-  <!-- TODO: Link in your SMACSS-appropriate CSS files: base, layout, and modules -->
-
+  <!-- DONE: Link in your SMACSS-appropriate CSS files: base, layout, and modules -->
+  <link rel="stylesheet" type="text/css" href="will-phelan/styles/base.css">
+  <link rel="stylesheet" type="text/css" href="will-phelan/styles/layout.css">
+  <link rel="stylesheet" type="text/css" href="will-phelan/styles/modules.css">
   <!-- COMMENT: Explain the ordering of the loading of the stylesheets -->
   <!-- PUT YOUR RESPONSE HERE -->
-
+  <!-- Style sheets are loaded sequentially, so place the most uinversal stying information in your base file, and load that first.  Then move to element-level style in layout.css, and cascade down to modules and actions. -->
   <!-- REVIEW: This is the favicon -->
   <link rel="icon" type="image/x-icon" href="https://avatars2.githubusercontent.com/u/18607604?v=3&s=200">
 </head>
