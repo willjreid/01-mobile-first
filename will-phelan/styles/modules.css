@@ -1,8 +1,28 @@
-
-
+h1 {
+  margin:0;
+}
 
 img {
   max-width: 100%;
+}
+
+.byline {
+  color: grey;
+  line-height: 3em;
+}
+
+.byline * {
+  display: inline;
+}
+
+.byline a {
+  font-size: 100%;
+  font-weight: bolder;
+}
+
+.site-header  {
+  background-color:khaki;
+  padding: 1.5em;
 }
 
 .icon-menu {
@@ -12,12 +32,19 @@ img {
   font-size: 300%;
 }
 
-nav ul {
-  display: none;
-}
-
 .icon-menu:hover + ul {
   display: inline;
+}
+
+.icon-menu + ul li {
+  display: block;
+  padding: 12px;
+  border-bottom: 1.5px solid #AAAAAA;
+}
+
+nav ul {
+  display: none;
+  list-style-type: none;
 }
 
 @media only screen and (min-width: 640px) {
@@ -25,7 +52,6 @@ nav ul {
     visibility: hidden;
   }
   nav ul {
-    list-style-type: none;
     display: inline-block;
   }
   nav li {
