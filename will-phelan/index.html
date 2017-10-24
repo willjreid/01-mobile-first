@@ -6,14 +6,13 @@
   <!-- DONE: Add a meta tag to properly set the viewport and initial scale -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- DONE: Add a link to a normalize.css file, which should be in your vendor/styles/ directory -->
-  <link rel="stylesheet" type="text/css" href="vendor/styles/normalize.css">
+  <link rel="stylesheet" type="text/css" href="../vendor/styles/normalize.css">
   <!-- DONE: Link in the provided styles/icons.css file so that you can use icon fonts -->
-  <link rel="stylesheet" type="text/css" href="will-phelan/styles/icons.css">
-
+  <link rel="stylesheet" type="text/css" href="styles/icons.css">
   <!-- DONE: Link in your SMACSS-appropriate CSS files: base, layout, and modules -->
-  <link rel="stylesheet" type="text/css" href="will-phelan/styles/base.css">
-  <link rel="stylesheet" type="text/css" href="will-phelan/styles/layout.css">
-  <link rel="stylesheet" type="text/css" href="will-phelan/styles/modules.css">
+  <link rel="stylesheet" type="text/css" href="styles/base.css">
+  <link rel="stylesheet" type="text/css" href="styles/layout.css">
+  <link rel="stylesheet" type="text/css" href="styles/modules.css">
   <!-- COMMENT: Explain the ordering of the loading of the stylesheets -->
   <!-- PUT YOUR RESPONSE HERE -->
   <!-- Style sheets are loaded sequentially, so place the most uinversal stying information in your base file, and load that first.  Then move to element-level style in layout.css, and cascade down to modules and actions. -->
@@ -25,6 +24,7 @@
   <header class="site-header clearfix">
     <!-- COMMENT: Read the CSS Tricks article on clearfix, and explain in your own words how they are used. -->
     <!-- PUT YOUR RESPONSE HERE -->
+    <!-- Use a clearfix anytime you need to clear floats (or contain them to one segment of the page) and allow other widths/float logic to take over for a new segment on the page. -->
 
     <section class="heading-group-h1">
       <h1>
